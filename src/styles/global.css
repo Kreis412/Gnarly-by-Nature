@@ -1,0 +1,111 @@
+/* src/styles/global.css */
+
+:root {
+  --warm-cream: #fdfbf7;
+  --driftwood-tan: #c2a685;
+  --forest-green: #2d5a27;
+  --sea-glass-blue: #7ba9a4;
+  --rich-brown: #3e2723;
+  --copper: #b87333;
+  --copper-light: #d4a76a;
+  
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+  
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+  
+  --border-radius: 4px; /* Keeping it subtle for a handmade feel */
+  --transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--warm-cream);
+  color: var(--rich-brown);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  color: var(--rich-brown);
+  margin-bottom: var(--spacing-sm);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--rich-brown);
+  background-color: transparent;
+  color: var(--rich-brown);
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--rich-brown);
+  color: var(--warm-cream);
+}
+
+.btn-primary {
+  background-color: var(--forest-green);
+  color: var(--warm-cream);
+  border-color: var(--forest-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--rich-brown);
+  border-color: var(--rich-brown);
+}
+
+.btn-copper {
+  background-color: var(--copper);
+  color: var(--warm-cream);
+  border-color: var(--copper);
+}
+
+.btn-copper:hover {
+  background-color: var(--rich-brown);
+  border-color: var(--rich-brown);
+}
+
+section {
+  padding: var(--spacing-lg) 0;
+}
