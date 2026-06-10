@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/store" onClick={() => setIsOpen(false)}>Store</Link>
           <Link to="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
+          <Link to="/story" onClick={() => setIsOpen(false)}>My Story</Link>
           <Link to="/testimonials" onClick={() => setIsOpen(false)}>Reviews</Link>
           <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
           <Link to="/weddings" className="nav-special" onClick={() => setIsOpen(false)}>Weddings</Link>
