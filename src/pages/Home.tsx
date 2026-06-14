@@ -20,8 +20,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          {/* Placeholder for "best piece" image */}
-          <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=1200" alt="Flagship Driftwood Piece" />
+          <img src="/images/nice dock.jpg" alt="Gnarly by Nature Driftwood Art" />
         </div>
       </section>
 

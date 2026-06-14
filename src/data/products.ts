@@ -18,7 +18,7 @@ export const products: Product[] = [
     price: 185,
     dimensions: '24" x 24"',
     description: 'A hand-selected frame of weathered Lake Erie driftwood encircling a high-quality circular mirror.',
-    images: ['https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=800'], // Placeholder
+    images: ['/images/nice dock.jpg'],
     category: 'driftwood',
     isHighlight: true
   },
@@ -28,7 +28,7 @@ export const products: Product[] = [
     price: 120,
     dimensions: '18" Height',
     description: 'Intricately carved cedar wood sculpture capturing the essence of the old growth forest.',
-    images: ['https://images.unsplash.com/photo-1518998053504-5368efc9bca7?q=80&w=800'], // Placeholder
+    images: ['/images/wild flowers.jpg'],
     category: 'handmade',
     isHighlight: true
   },
@@ -38,8 +38,35 @@ export const products: Product[] = [
     price: 45,
     dimensions: '12" Length',
     description: 'Found glass and driftwood pieces that create a gentle, melodic sound in the breeze.',
-    images: ['https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?q=80&w=800'], // Placeholder
+    images: ['/images/flowers on a log.jpg'],
     category: 'gift',
     isHighlight: true
+  },
+  {
+    id: '4',
+    name: 'Handcrafted Coasters',
+    price: 35,
+    dimensions: '4" x 4"',
+    description: 'Beautifully finished natural wood coasters, perfect for any home.',
+    images: ['/images/Coasters.jpg'],
+    category: 'handmade'
+  },
+  {
+    id: '5',
+    name: 'Driftwood Sconce',
+    price: 95,
+    dimensions: '14" Height',
+    description: 'A unique wall sconce crafted from Lake Erie driftwood.',
+    images: ['/images/sconce.jpg'],
+    category: 'driftwood'
+  },
+  {
+    id: '6',
+    name: 'Triple Tealight Holder',
+    price: 55,
+    dimensions: '12" x 4"',
+    description: 'A handcrafted driftwood holder for three tealight candles.',
+    images: ['/images/triple tealights.jpg'],
+    category: 'driftwood'
   }
 ];

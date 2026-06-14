@@ -26,21 +26,21 @@ const Weddings: React.FC = () => {
         <div className="showcase-grid">
           <div className="showcase-item">
             <div className="showcase-img">
-              <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=800" alt="Driftwood Arch" />
+              <img src="/images/wild flowers.jpg" alt="Driftwood Arch" />
             </div>
             <h3>Driftwood Arches</h3>
             <p>Stunning focal points for your ceremony, shaped by the lake.</p>
           </div>
           <div className="showcase-item">
             <div className="showcase-img">
-              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800" alt="Centerpieces" />
+              <img src="/images/flowers on a log.jpg" alt="Centerpieces" />
             </div>
             <h3>Centerpieces</h3>
             <p>Intricate designs that bring nature to every table.</p>
           </div>
           <div className="showcase-item">
             <div className="showcase-img">
-              <img src="https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=800" alt="Welcome Signs" />
+              <img src="/images/large succulents (1).jpg" alt="Welcome Signs" />
             </div>
             <h3>Welcome Signs</h3>
             <p>Hand-lettered on weathered wood to greet your guests.</p>

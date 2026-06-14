@@ -14,16 +14,26 @@ export const galleryItems: GalleryItem[] = [
     title: 'Driftwood Wedding Arch',
     description: 'A grand, 8-foot tall arch made from silver-weathered driftwood, adorned with local flora.',
     images: [
-      'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=800',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800'
+      '/images/flowers on a log.jpg',
+      '/images/wild flowers.jpg'
     ],
     category: 'wedding'
   },
   {
     id: 'g2',
-    title: 'Lake Erie Memorial Plaque',
-    description: 'A personalized memorial piece incorporating found objects and engraved driftwood.',
-    images: ['https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=800'],
-    category: 'memorial'
+    title: 'Succulent Display',
+    description: 'A beautiful arrangement of large and pink succulents in natural driftwood containers.',
+    images: [
+      '/images/large succulents (1).jpg',
+      '/images/pink succulents.jpg'
+    ],
+    category: 'display'
+  },
+  {
+    id: 'g3',
+    title: 'Promotional Flyer',
+    description: 'Our latest event flyer showcasing our unique creations.',
+    images: ['/images/flyer.jpg'],
+    category: 'display'
   }
 ];

@@ -37,7 +37,16 @@ const Contact: React.FC = () => {
       </section>
 
       <section className="contact-form-container">
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="contact-info-grid">
+          <div className="contact-image-side">
+            <img src="/images/Open hours.jpg" alt="Open Hours" className="open-hours-img" />
+            <div className="location-info">
+              <h3>Visit the Workshop</h3>
+              <p>Lake Erie Shoreline</p>
+              <p>Available by appointment for custom consultations.</p>
+            </div>
+          </div>
+          <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-grid">
             <div className="form-group">
               <label htmlFor="name">Name</label>
