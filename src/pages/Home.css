@@ -100,7 +100,8 @@
 }
 
 .product-image {
-  height: 350px;
+  aspect-ratio: 16/9;
+  height: auto;
   overflow: hidden;
   margin-bottom: var(--spacing-sm);
 }

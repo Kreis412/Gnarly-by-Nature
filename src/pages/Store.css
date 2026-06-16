@@ -58,7 +58,8 @@
 }
 
 .store-card-image {
-  height: 400px;
+  aspect-ratio: 16/9;
+  height: auto;
   overflow: hidden;
 }
 
