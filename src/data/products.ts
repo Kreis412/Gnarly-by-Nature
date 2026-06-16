@@ -23,16 +23,6 @@ export const products: Product[] = [
     isHighlight: true
   },
   {
-    id: '2',
-    name: 'Forest Spirit Sculpture',
-    price: 120,
-    dimensions: '18" Height',
-    description: 'Intricately carved cedar wood sculpture capturing the essence of the old growth forest.',
-    images: ['/images/forest-sculpture.jpg'],
-    category: 'handmade',
-    isHighlight: true
-  },
-  {
     id: '3',
     name: 'Found Glass Wind Chime',
     price: 45,
