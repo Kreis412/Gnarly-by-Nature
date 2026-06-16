@@ -14,8 +14,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Driftwood Wedding Arch',
     description: 'A grand, 8-foot tall arch made from silver-weathered driftwood, adorned with local flora.',
     images: [
-      '/images/flowers on a log.jpg',
-      '/images/wild flowers.jpg'
+      '/images/wedding-arch.jpg'
     ],
     category: 'wedding'
   },
@@ -34,6 +33,13 @@ export const galleryItems: GalleryItem[] = [
     title: 'Promotional Flyer',
     description: 'Our latest event flyer showcasing our unique creations.',
     images: ['/images/flyer.jpg'],
+    category: 'display'
+  },
+  {
+    id: 'g4',
+    title: 'Shoreline Inspiration',
+    description: 'The rugged beauty of Lake Erie that inspires every piece we create.',
+    images: ['/images/nice dock.jpg', '/images/wild flowers.jpg'],
     category: 'display'
   }
 ];

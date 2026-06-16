@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
       <section className="contact-form-container">
         <div className="contact-info-grid">
           <div className="contact-image-side">
-            <img src="/images/Open hours.jpg" alt="Open Hours" className="open-hours-img" />
+            <img src="/images/Open-hours.jpg" alt="Open Hours" className="open-hours-img" />
             <div className="location-info">
               <h3>Visit the Workshop</h3>
               <p>Lake Erie Shoreline</p>

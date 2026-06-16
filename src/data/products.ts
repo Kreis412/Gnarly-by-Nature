@@ -18,7 +18,7 @@ export const products: Product[] = [
     price: 185,
     dimensions: '24" x 24"',
     description: 'A hand-selected frame of weathered Lake Erie driftwood encircling a high-quality circular mirror.',
-    images: ['/images/nice dock.jpg'],
+    images: ['/images/driftwood-mirror.jpg'],
     category: 'driftwood',
     isHighlight: true
   },
@@ -28,7 +28,7 @@ export const products: Product[] = [
     price: 120,
     dimensions: '18" Height',
     description: 'Intricately carved cedar wood sculpture capturing the essence of the old growth forest.',
-    images: ['/images/wild flowers.jpg'],
+    images: ['/images/forest-sculpture.jpg'],
     category: 'handmade',
     isHighlight: true
   },
@@ -38,7 +38,7 @@ export const products: Product[] = [
     price: 45,
     dimensions: '12" Length',
     description: 'Found glass and driftwood pieces that create a gentle, melodic sound in the breeze.',
-    images: ['/images/flowers on a log.jpg'],
+    images: ['/images/wind-chime.jpg'],
     category: 'gift',
     isHighlight: true
   },
