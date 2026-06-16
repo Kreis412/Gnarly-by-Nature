@@ -14,40 +14,50 @@ export interface Product {
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Lake Erie Driftwood Mirror',
-    price: 185,
-    dimensions: '24" x 24"',
-    description: 'A hand-selected frame of weathered Lake Erie driftwood encircling a high-quality circular mirror.',
-    images: ['/images/driftwood-mirror.jpg'],
+    name: 'Driftwood Display Shelf',
+    price: 145,
+    dimensions: '30" x 8"',
+    description: 'A beautiful wall-mounted display shelf crafted from natural weathered Lake Erie driftwood.',
+    images: ['/images/display shelf.png'],
     category: 'driftwood',
     isHighlight: true
   },
   {
+    id: '2',
+    name: 'Love Wall Hooks',
+    price: 65,
+    dimensions: '18" x 6"',
+    description: 'Charming wall-mounted hooks featuring a rustic "Love" sign, handcrafted from driftwood.',
+    images: ['/images/Love wall hooks.png'],
+    category: 'handmade',
+    isHighlight: true
+  },
+  {
     id: '3',
-    name: 'Found Glass Wind Chime',
-    price: 45,
-    dimensions: '12" Length',
-    description: 'Found glass and driftwood pieces that create a gentle, melodic sound in the breeze.',
-    images: ['/images/wind-chime.jpg'],
-    category: 'gift',
+    name: 'Melted Glass Driftwood Art',
+    price: 110,
+    dimensions: '14" Height',
+    description: 'A stunning decorative piece featuring hand-blown glass melted over a natural driftwood base.',
+    images: ['/images/melted glass.png'],
+    category: 'driftwood',
     isHighlight: true
   },
   {
     id: '4',
-    name: 'Handcrafted Coasters',
-    price: 35,
-    dimensions: '4" x 4"',
-    description: 'Beautifully finished natural wood coasters, perfect for any home.',
-    images: ['/images/Coasters.jpg'],
+    name: 'Driftwood Jewelry Stand',
+    price: 85,
+    dimensions: '12" x 16"',
+    description: 'An elegant jewelry display stand handcrafted from weathered shoreline branches.',
+    images: ['/images/jewelry stand.jpg'],
     category: 'handmade'
   },
   {
     id: '5',
-    name: 'Driftwood Sconce',
+    name: 'Driftwood Wall Sconce',
     price: 95,
     dimensions: '14" Height',
-    description: 'A unique wall sconce crafted from Lake Erie driftwood.',
-    images: ['/images/sconce.jpg'],
+    description: 'A unique wall sconce crafted from Lake Erie driftwood that casts a warm, organic glow.',
+    images: ['/images/sconce.png'],
     category: 'driftwood'
   },
   {
@@ -55,8 +65,17 @@ export const products: Product[] = [
     name: 'Triple Tealight Holder',
     price: 55,
     dimensions: '12" x 4"',
-    description: 'A handcrafted driftwood holder for three tealight candles.',
-    images: ['/images/triple tealights.jpg'],
+    description: 'A handcrafted driftwood holder for three tealight candles, perfect for a cozy atmosphere.',
+    images: ['/images/triple tealights .png'],
     category: 'driftwood'
+  },
+  {
+    id: '7',
+    name: 'Single Tealight Holder',
+    price: 25,
+    dimensions: '4" x 4"',
+    description: 'A compact and rustic driftwood single tealight candle holder.',
+    images: ['/images/single tea light .png'],
+    category: 'gift'
   }
 ];

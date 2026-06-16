@@ -20,7 +20,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <img src="/images/gnarly-hero.jpg" alt="Gnarly by Nature Driftwood Art" />
+          <img src="/images/gnarly-hero.png" alt="Gnarly by Nature Driftwood Art" />
         </div>
       </section>
 

@@ -8,7 +8,7 @@ export interface StoryContent {
 
 export const storyContent: StoryContent = {
   title: "The Heart Behind the Wood",
-  image: "/images/flowers on a log.jpg",
+  image: "/images/flowers on a log.png",
   paragraphs: [
     "My journey with Lake Erie driftwood began with a simple walk along the shore. I was captivated by the gnarled shapes and silvered textures of wood that had been weathered by the lake's relentless waves and winds.",
     "What started as a collection of found treasures soon turned into a passion for preservation. Every piece of wood tells a story of its journey through the Great Lakes, and my goal is to highlight that natural history through art.",
