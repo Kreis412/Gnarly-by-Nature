@@ -9,27 +9,31 @@ import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 import Weddings from './pages/Weddings';
 import Story from './pages/Story';
+import { ImageZoomProvider } from './context/ImageZoomContext';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/store" element={<Store />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/story" element={<Story />} />
-            <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/weddings" element={<Weddings />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <ImageZoomProvider>
+      <Router>
+        <div className="app">
+          <Navbar />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/store" element={<Store />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/story" element={<Story />} />
+              <Route path="/testimonials" element={<Testimonials />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/weddings" element={<Weddings />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </ImageZoomProvider>
   );
 }
 
 export default App;
+

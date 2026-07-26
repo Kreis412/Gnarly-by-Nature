@@ -1,6 +1,7 @@
 // src/pages/Store.tsx
 import React, { useState } from 'react';
 import { products } from '../data/products';
+import ZoomableImage from '../components/ZoomableImage';
 import './Store.css';
 
 const Store: React.FC = () => {
@@ -15,6 +16,7 @@ const Store: React.FC = () => {
       <header className="store-header">
         <h1>Handmade Treasures</h1>
         <p>Each piece is unique, crafted from materials gathered from the rugged shores of Lake Erie.</p>
+        <p className="zoom-sub-hint">Click on any product image to zoom in and examine the natural details</p>
         
         <div className="filter-bar">
           <button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>All</button>
@@ -28,7 +30,11 @@ const Store: React.FC = () => {
         {filteredProducts.map(product => (
           <div key={product.id} className="store-card">
             <div className="store-card-image">
-              <img src={product.images[0]} alt={product.name} />
+              <ZoomableImage 
+                src={product.images[0]} 
+                alt={product.name} 
+                title={product.name}
+              />
             </div>
             <div className="store-card-content">
               <h3>{product.name}</h3>
@@ -47,3 +53,4 @@ const Store: React.FC = () => {
 };
 
 export default Store;
+

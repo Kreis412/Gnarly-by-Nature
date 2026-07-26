@@ -40,18 +40,22 @@
 }
 
 .showcase-img {
-  height: 400px;
+  height: 380px;
   overflow: hidden;
   margin-bottom: var(--spacing-sm);
   border-radius: var(--border-radius);
+  background-color: #f6f2ea;
+  border: 1px solid rgba(62, 39, 35, 0.08);
+  padding: 0.5rem;
 }
 
 .showcase-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Full uncropped picture view */
   transition: var(--transition);
 }
+
 
 .showcase-item:hover img {
   transform: scale(1.05);

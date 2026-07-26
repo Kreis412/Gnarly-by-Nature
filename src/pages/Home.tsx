@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
+import ZoomableImage from '../components/ZoomableImage';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -20,7 +21,11 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <img src="/images/gnarly-hero.png" alt="Gnarly by Nature Driftwood Art" />
+          <ZoomableImage 
+            src="/images/gnarly-hero.png" 
+            alt="Gnarly by Nature Driftwood Art" 
+            title="Gnarly by Nature Hero Sculpture"
+          />
         </div>
       </section>
 
@@ -38,11 +43,16 @@ const Home: React.FC = () => {
       <section className="highlights bg-tan">
         <div className="container">
           <h2 className="text-center">Featured Creations</h2>
+          <p className="text-center zoom-sub-hint mb-md">Click any photo to zoom in and out on fine details</p>
           <div className="product-grid">
             {highlights.map(product => (
               <div key={product.id} className="product-card">
                 <div className="product-image">
-                  <img src={product.images[0]} alt={product.name} />
+                  <ZoomableImage 
+                    src={product.images[0]} 
+                    alt={product.name} 
+                    title={product.name}
+                  />
                 </div>
                 <div className="product-info">
                   <h3>{product.name}</h3>
@@ -62,3 +72,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+

@@ -16,8 +16,9 @@
   position: relative;
   border: 1px solid var(--driftwood-tan);
   padding: var(--spacing-sm);
-  background-color: #fff;
+  background-color: #f6f2ea;
   box-shadow: 0 15px 40px rgba(62, 39, 35, 0.05);
+  max-height: 500px;
 }
 
 .artist-photo-frame::after {

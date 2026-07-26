@@ -1,6 +1,7 @@
 // src/pages/Gallery.tsx
 import React from 'react';
 import { galleryItems } from '../data/gallery';
+import ZoomableImage from '../components/ZoomableImage';
 import './Gallery.css';
 
 const Gallery: React.FC = () => {
@@ -9,6 +10,7 @@ const Gallery: React.FC = () => {
       <header className="gallery-header">
         <h1>Artistic Journey</h1>
         <p>A collection of past works, custom commissions, and natural inspirations.</p>
+        <p className="zoom-sub-hint">Click on any picture to view full-screen and zoom in on details</p>
       </header>
 
       <div className="gallery-grid">
@@ -17,7 +19,11 @@ const Gallery: React.FC = () => {
             <div className="gallery-images">
               {item.images.map((img, index) => (
                 <div key={index} className="gallery-img-wrapper">
-                  <img src={img} alt={`${item.title} - ${index + 1}`} />
+                  <ZoomableImage 
+                    src={img} 
+                    alt={`${item.title} - ${index + 1}`} 
+                    title={item.title}
+                  />
                 </div>
               ))}
             </div>
@@ -34,3 +40,4 @@ const Gallery: React.FC = () => {
 };
 
 export default Gallery;
+
